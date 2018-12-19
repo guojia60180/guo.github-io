@@ -14,7 +14,7 @@ x='''['\n人什么时候会试图反抗大脑？\n', '\n苏联究竟发达到什
 
 print(titles)
 results=re.findall('\n(.*?)\n',"".join(titles))
-results.append('我小雯雯为什么这么可爱？')
+
 for i,result in enumerate(results):
 
     print("排名%s 问题%s" % (i + 1, result))
