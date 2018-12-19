@@ -5,7 +5,9 @@ from __future__ import unicode_literals
 from threading import Timer
 from wxpy import *
 import requests
+import re
 
+#抓取知乎现在的问题选项
 bot = Bot()
 
 
