@@ -41,4 +41,3 @@ with open ('data.json','w') as file:
     file.write(json.dumps(data,indent=2,ensure_ascii='utf-8'))#indent代表缩进的字符个数，这里代表两个缩进
     #同时需要规定文件的编码类型
 
-    
